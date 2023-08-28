@@ -27,7 +27,7 @@ function Contact() {
   </p>
 </section>
 
-<section className="bg-customBlue py-12 md:py-20">
+<section className="bg-customBlue py-12 md:py-20 px-10">
   <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-20">
     <div className="text-center md:text-left">
       <a

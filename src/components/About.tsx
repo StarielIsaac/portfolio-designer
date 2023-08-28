@@ -15,7 +15,10 @@ function About() {
   };
 
   return (
-    <section id="about" className="about w-full py-20 text-slate-100 bg-slate-500 flex flex-col md:flex-row justify-center items-center">
+    <section
+      id="about"
+      className="about w-full py-20 text-slate-100 bg-slate-500 flex flex-col md:flex-row justify-center items-center"
+    >
       <div className="container mx-auto px-10 flex flex-col md:flex-row md:space-x-8 items-center">
         {/* Foto */}
         <TrackVisibility>
@@ -48,7 +51,14 @@ function About() {
             Meu nome é Kevin, tenho 25 anos e sou apaixonado por criar ambientes
             visuais deslumbrantes usando técnicas avançadas de modelagem em 3D.
             Minhas criações buscam combinar a estética com a funcionalidade,
-            proporcionando experiências únicas e imersivas.
+            proporcionando experiências únicas e imersivas. 
+          </p>
+          <p className="mt-4">
+            Trabalho no campo da renderização há 4 anos, meu objetivo é
+            transmitir sensações por meio de imagens. Ajudo arquitetos a
+            convencer seus clientes que sua arquitetura é ideal para eles,
+            minhas especialidades são ambientes comerciais, interiores de
+            apartamentos.
           </p>
           <p className="mt-4">
             Abaixo você encontrará mais informações sobre minhas habilidades e
@@ -58,14 +68,14 @@ function About() {
 
           {/* Botões */}
           <div className="flex flex-col md:flex-row mt-6 space-y-4 md:space-y-0 md:space-x-4 items-center md:justify-start">
-          <a
+            <a
               href="https://api.whatsapp.com/send?phone=1234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-transparent border font-normal hover:text-slate-800 hover:bg-gray-200 text-slate-100 py-3 md:py-4 lg:py-3 px-4 rounded-lg transition duration-300 ease-in-out mb-4 md:mb-0"
+              className="flex items-center font-semibold bg-transparent border hover:text-slate-800 hover:bg-gray-200 text-slate-100 py-3 md:py-4 lg:py-3 px-4 rounded-lg transition duration-300 ease-in-out mb-4 md:mb-0"
             >
               Fale comigo!{" "}
-              <span className="ml-2">
+              <span className="ml-2 ">
                 <FaWhatsapp size={30} />
               </span>
             </a>
@@ -76,7 +86,7 @@ function About() {
               onClick={copyEmailToClipboard}
             >
               {emailCopied ? "Email copiado!" : "Copiar email"}
-              <FiCopy className="inline-block ml-1" />
+              <FiCopy className="inline-block ml-2" size={22}  />
             </button>
           </div>
         </div>

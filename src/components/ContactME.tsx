@@ -5,7 +5,7 @@ import { envelope } from "react-icons-kit/fa/envelope";
 
 function ContactME() {
   return (
-<section id="contatos" className="bg-customBlue md:py-20 h-screen flex flex-col justify-center items-center">
+<section id="contatos" className="bg-customBlue md:py-20 px-10 h-screen flex flex-col justify-center items-center">
   <div className="container mx-auto">
     <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-20">
       <div className="text-center md:text-left">

@@ -7,7 +7,7 @@ function Footer() {
         href="#top"
         className="bg-customBlue hover:bg-blue-700 border border-gray-600 text-white animate-bounce-slow-mt font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out inline-block"
       >
-        <span className="text-2xl">↑</span> Voltar
+        <span className="text-xl mr-1">↑</span> Voltar
       </a>
     </div>
     <p className="mb-4 text-sm">
@@ -16,30 +16,26 @@ function Footer() {
     <div className="flex justify-center space-x-8">
       <a
         href="#about"
-        className="hover:text-blue-500 transition duration-300"
+        className="hover:text-blue-400 hover:scale-125 transition-transform duration-500"
       >
         Sobre
       </a>
       <a
         href="#galery"
-        className="hover:text-blue-500 transition duration-300"
+        className="hover:text-blue-400 hover:scale-125 transition-transform duration-500"
       >
         Galeria
       </a>
       <a
         href="#"
-        className="hover:text-blue-500 transition duration-300"
+        className="hover:text-blue-400 hover:scale-125 transition-transform duration-500"
       >
         Contato
       </a>
     </div>
     <div className="mt-8">
       <p className="text-gray-400 text-xs">
-        Feito com{' '}
-        <span role="img" aria-label="Coração Vermelho">
-          ❤️
-        </span>{' '}
-        por Stariel Isaac
+        Desenvolvido por <strong>Stariel Isaac</strong>
       </p>
     </div>
   </div>

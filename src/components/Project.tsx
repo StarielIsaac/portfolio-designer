@@ -97,10 +97,10 @@ function Project() {
         <hr className='border-gray-700 mt-6'/>
         <TrackVisibility>
           {({ isVisible }) => (
-        <div className={`custom-gallery bg-neutral-300 shadow-2xl ${
+        <div className={`custom-gallery bg-neutral-800 shadow-2xl ${
           isVisible ? "animate-zoomIn-mild" : ""
         }`}>
-          <Gallery items={images} autoPlay={true}/>
+          <Gallery items={images} autoPlay={true} />
         </div>
          )}
          </TrackVisibility>

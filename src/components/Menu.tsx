@@ -22,28 +22,28 @@ const Menu = () => {
       <div className="flex flex-col items-center justify-center flex-grow tracking-wider font-light">
         <Link
           to="/"
-          className="text-2xl hover:text-gray-400 my-4 transition duration-300"
+          className="text-2xl my-4 hover:text-blue-300 hover:scale-110 transition-transform duration-500"
         >
           Home
         </Link>
         <hr className="border-gray-600 w-5/6 my-2" />
         <Link
           to="/about"
-          className="text-2xl hover:text-gray-400 my-4 transition duration-300"
+          className="text-2xl my-4  hover:text-blue-300 hover:scale-110 transition-transform duration-500"
         >
           Sobre
         </Link>
         <hr className="border-gray-600 w-5/6 my-2" />
         <Link
           to="/galery"
-          className="text-2xl hover:text-gray-400  my-4 transition duration-300"
+          className="text-2xl my-4 hover:text-blue-300 hover:scale-110 transition-transform duration-500"
         >
           Galeria
         </Link>
         <hr className="border-gray-600 w-5/6 my-2" />
         <Link
           to="/contact"
-          className="text-2xl hover:text-gray-400  my-4 transition duration-300"
+          className="text-2xl my-4 hover:text-blue-300 hover:scale-110 transition-transform duration-500"
         >
           Contato
         </Link>
