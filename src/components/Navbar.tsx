@@ -56,7 +56,7 @@ function Navbar() {
               } p-2 focus:outline-none focus:ring`}
             >
               <Link to="/menu">
-                <button className="focus:outline-none border-solid border-2 border-gray-200 rounded-full p-3 hover:scale-105 transition-transform bg-hover-customBlue">
+                <button className="focus:outline-none border-solid border border-gray-200 rounded-full p-3 hover:scale-105 transition-transform bg-hover-customBlue">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -85,12 +85,12 @@ function Navbar() {
               EN
             </p>
             <Link to="/menu">
-              <button className="focus:outline-none border-solid border-2 hover:scale-110 border-gray-200 rounded-full p-3 duration-700 transition-transform bg-hover-customBlue">
+              <button className="focus:outline-none border hover:scale-110 border-gray-200 rounded-full p-3 duration-700 transition-transform bg-hover-customBlue">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="w-10 h-10"
+                  className="w-8 h-8"
                 >
                   <path
                     fillRule="evenodd"
@@ -105,7 +105,7 @@ function Navbar() {
       </nav>
 
       <section className="h-screen bg-cover bg-center flex items-center relative bg-image">
-        <div className="container mx-auto text-center md:text-left font-light px-4 md:px-8">
+        <div className="container lg:mx-52 md:mx-auto text-center md:text-left font-light px-4 md:px-8">
           <h1 className="text-4xl md:text-5xl lg:text-5xl text-slate-100 mb-4">
             Experiências Visuais
           </h1>
@@ -119,21 +119,13 @@ function Navbar() {
               href="https://api.whatsapp.com/send?phone=1234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-transparent border-2 font-normal hover:text-slate-800 hover:bg-gray-200 text-slate-100 animate-bounce-slow-mt py-3 md:py-4 lg:py-3 px-8 rounded-full transition duration-300 ease-in-out mb-4 md:mb-0"
+              className="flex items-center bg-transparent border font-normal hover:text-slate-800 hover:bg-gray-200 text-slate-100 animate-bounce-slow-mt py-3 md:py-4 lg:py-3 px-8 rounded-full transition duration-300 ease-in-out mb-4 md:mb-0"
             >
               Solicite seu projeto!{" "}
               <span className="ml-2">
                 <FaWhatsapp size={30} />
               </span>
             </a>
-            {/* <a
-        href="https://api.whatsapp.com/send?phone=1234567890"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-gray-200 border-2 rounded-full p-2 bg-green-600 hover:bg-green-700 hover:scale-110 transition-transform duration-500"
-      >
-        <FaWhatsapp size={30} />
-      </a> */}
           </div>
         </div>
         <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 py-4">
@@ -148,7 +140,7 @@ function Navbar() {
       <div className="fixed bottom-12 right-3 animate-bounce-slow-mt">
         <a
           href="#top"
-          className=" bg-customBlue hover:bg-blue-700 border-2 border-gray-500 text-white font-semibold py-5 px-5 rounded-full transition duration-300 ease-in-out"
+          className=" bg-customBlue hover:bg-blue-700 border border-gray-500 text-white font-semibold py-5 px-5 rounded-full transition duration-300 ease-in-out"
         >
           <span className="text-2xl">↑</span>
         </a>

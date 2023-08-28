@@ -22,7 +22,7 @@ function About() {
           {({ isVisible }) => (
             <div className="animate-bounce-slow-mt w-full md:w-3/4 mb-8 md:mb-0">
               <img
-                className={`w-full h-auto rounded-3xl shadow-2xl border-2 border-gray-700 ${
+                className={`w-full h-auto rounded-3xl shadow-2xl border border-gray-700 ${
                   isVisible ? "animate-zoomIn-mild" : ""
                 }`}
                 src={foto}
@@ -62,7 +62,7 @@ function About() {
               href="https://api.whatsapp.com/send?phone=1234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-transparent border-2 font-normal hover:text-slate-800 hover:bg-gray-200 text-slate-100 py-3 md:py-4 lg:py-3 px-4 rounded-lg transition duration-300 ease-in-out mb-4 md:mb-0"
+              className="flex items-center bg-transparent border font-normal hover:text-slate-800 hover:bg-gray-200 text-slate-100 py-3 md:py-4 lg:py-3 px-4 rounded-lg transition duration-300 ease-in-out mb-4 md:mb-0"
             >
               Fale comigo!{" "}
               <span className="ml-2">

@@ -5,7 +5,7 @@ function Footer() {
     <div className="mb-8">
       <a
         href="#top"
-        className="bg-customBlue hover:bg-blue-700 border-2 border-gray-600 text-white animate-bounce-slow-mt font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out inline-block"
+        className="bg-customBlue hover:bg-blue-700 border border-gray-600 text-white animate-bounce-slow-mt font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out inline-block"
       >
         <span className="text-2xl">↑</span> Voltar
       </a>

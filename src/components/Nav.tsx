@@ -41,7 +41,7 @@ function Nav() {
               } p-2 focus:outline-none focus:ring`}
             >
               <Link to="/menu">
-                <button className="focus:outline-none border-solid border-2 border-gray-200 rounded-full p-3 hover:scale-105 transition-transform bg-hover-customBlue">
+                <button className="focus:outline-none border-solid border border-gray-200 rounded-full p-3 hover:scale-105 transition-transform bg-hover-customBlue">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -70,7 +70,7 @@ function Nav() {
               EN
             </p>
             <Link to="/menu">
-              <button className="focus:outline-none border-solid border-2 hover:scale-110 border-gray-200 rounded-full p-3 duration-700 transition-transform bg-hover-customBlue">
+              <button className="focus:outline-none border-solid border hover:scale-110 border-gray-200 rounded-full p-3 duration-700 transition-transform bg-hover-customBlue">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"

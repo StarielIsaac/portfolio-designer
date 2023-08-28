@@ -62,25 +62,24 @@ function Project() {
 
         <TrackVisibility>
           {({ isVisible }) => (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          {renderImages.map((image, index) => (
-            <div key={index} className="relative overflow-hidden shadow-lg group transition-transform transform hover:scale-105">
-              <img
-                src={image.thumbnail}
-                alt={`Arte ${index + 1}`}
-                className={`w-full h-60 object-cover rounded-lg ${
-                  isVisible ? "animate-zoomIn-mild" : ""
-                }`} 
-              />
-               <div className="absolute bottom-0 left-0 right-0 p-4 bg-slate-100 bg-opacity-70 opacity-0 transition duration-300 transform group-hover:opacity-100">
-                <p className="text-gray-900 text-base  italic">
-                  Casa em São Paulo
-                </p>
-              </div>
-              
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-6">
+        {renderImages.map((image, index) => (
+          <div key={index} className="relative overflow-hidden shadow-lg group transition-transform transform hover:scale-105 mx-4 sm:mx-0">
+            <img
+              src={image.thumbnail}
+              alt={`Arte ${index + 1}`}
+              className={`w-full h-60 object-cover rounded-lg ${
+                isVisible ? "animate-zoomIn-mild" : ""
+              }`} 
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-4 bg-slate-100 bg-opacity-70 opacity-0 transition duration-300 transform group-hover:opacity-100">
+              <p className="text-gray-900 text-base italic">
+                Casa em São Paulo
+              </p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
         )}
         </TrackVisibility>
         

@@ -14,7 +14,7 @@ const Menu = () => {
         </div>
         <Link
           to="/"
-          className="rounded-full border-2 w-14 h-14 flex items-center hover:border-gray-600 justify-center hover:scale-110 text-white transition duration-700"
+          className="rounded-full border w-14 h-14 flex items-center hover:border-gray-600 justify-center hover:scale-110 text-white transition duration-700"
         >
           &#x2715;
         </Link>

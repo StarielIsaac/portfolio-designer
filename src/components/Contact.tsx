@@ -12,7 +12,7 @@ function Contact() {
       Você tem um projeto?
     </p>
     <a 
-    className="font-mono bg-transparent hover:bg-gray-200 border-2 hover:text-customBlue animate-bounce-slow-mt text-white py-2 px-4 md:py-4 md:px-6 rounded-full transition duration-500 ease-in-out"
+    className="font-mono bg-transparent hover:bg-gray-200 border hover:text-customBlue animate-bounce-slow-mt text-white py-2 px-4 md:py-4 md:px-6 rounded-full transition duration-500 ease-in-out"
     href="https://api.whatsapp.com/send?phone=1234567890"
     target="_blank"
     rel="noopener noreferrer">
