@@ -62,9 +62,9 @@ function Project() {
 
         <TrackVisibility>
           {({ isVisible }) => (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8">
         {renderImages.map((image, index) => (
-          <div key={index} className="relative overflow-hidden shadow-lg group transition-transform transform hover:scale-105 mx-4 sm:mx-0">
+          <div key={index} className="relative overflow-hidden shadow-lg group transition-transform transform hover:scale-105 mx-6 sm:mx-0">
             <img
               src={image.thumbnail}
               alt={`Arte ${index + 1}`}

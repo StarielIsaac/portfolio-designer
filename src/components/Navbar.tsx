@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`navbar ${navbarBg} text-gray-100 py-4 sm:py-6 px-4 sm:px-8 lg:px-20 flex justify-between items-center fixed w-full top-0 left-0 z-50 max-h-28 transition-background duration-700 ease-in-out`}
+        className={`navbar ${navbarBg} text-gray-100 py-4 sm:py-6 px-4 sm:px-8 lg:px-20 flex justify-between items-center fixed w-full top-0 left-0 z-50 max-h-24 transition-background duration-700 ease-in-out`}
       >
         {/* Resto do código da navbar */}
         <div className="container mx-auto flex justify-between items-center">
@@ -42,7 +42,7 @@ function Navbar() {
               <img
                 src={logo}
                 alt=""
-                className="w-40 hover:scale-110 transition-transform duration-700"
+                className="max-h-60 hover:scale-110 transition-transform duration-700"
               />
             </a>
           </div>
@@ -137,14 +137,14 @@ function Navbar() {
         </div>
       </section>
 
-      <div className="fixed bottom-12 right-3 animate-bounce-slow-mt">
-        <a
-          href="#top"
-          className=" bg-customBlue hover:bg-blue-700 border border-gray-500 text-white font-semibold py-5 px-5 rounded-full transition duration-300 ease-in-out"
-        >
-          <span className="text-2xl">↑</span>
-        </a>
-      </div>
+      <div className="fixed bottom-12 right-3 animate-bounce-slow-mt" style={{ zIndex: 999 }}>
+  <a
+    href="#top"
+    className="bg-customBlue hover:bg-blue-700 border border-gray-500 text-white font-semibold py-5 px-5 rounded-full transition duration-300 ease-in-out"
+  >
+    <span className="text-2xl">↑</span>
+  </a>
+</div>
     </>
   );
 }
